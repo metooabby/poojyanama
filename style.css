@@ -1038,11 +1038,6 @@ button:focus {
   text-align: center;
 }
 
-.ast_about_info_img img {
-  /* width: 350px; */
-  margin-top: -50px;
-}
-
 
 /*---------- About Us css end -------*/
 
@@ -3584,28 +3579,10 @@ button:focus {
 .ast_team_box ul li {
   list-style: none;
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin: 5px;
 }
 
-.ast_team_box ul li a {
-  float: left;
-  width: 100%;
-  background-color: #ffffff;
-  color: #333333;
-  border-radius: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-box-shadow: inset 1px 1px 7px -5px #000000;
-  -moz-box-shadow: inset 1px 1px 7px -5px #000000;
-  -o-box-shadow: inset 1px 1px 7px -5px #000000;
-  -ms-box-shadow: inset 1px 1px 7px -5px #000000;
-  box-shadow: inset 1px 1px 7px -5px #000000;
+.ast_team_box ul li {
+  margin-left: 10px;
 }
 
 .gray_wrapper .ast_team_box ul li a {
